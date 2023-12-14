@@ -6,7 +6,9 @@ body{
 }
 #contenu{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
 }
 #wrap{
     display: flex;
@@ -31,4 +33,12 @@ button{
 }
 .border-blue{
     border: 3px solid #7CA8D3;
+}
+.text{
+    background-color: #E3E6DA;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 15px 20px;
+  background-color: #E3E6DA;
+  margin-top: 70px;
 }

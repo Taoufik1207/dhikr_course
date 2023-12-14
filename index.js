@@ -18,3 +18,14 @@ let body = document.querySelector('body')
 body.addEventListener('click', function () {
     issac.classList.remove('border-blue')
 })
+
+
+for (let i=0; i<15; i++) {
+    
+    let contenu = document.querySelector("#contenu")
+    let text2 = document.createElement("div")
+    contenu.appendChild(text2)
+    text2.innerText = "salut"
+    text2.classList.add("text")
+    
+}
