@@ -1,3 +1,6 @@
+
+export default 
+
 [
     {
         "repeat" : "Repeat 1 time",
